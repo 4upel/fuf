@@ -2,11 +2,12 @@
 #include <locale>
 using namespace std ;
 
-int main() {
+int main() 
+{
 
-	setlocale(LC_ALL "Rus");
+	setlocale(LC_ALL, "Rus");//забыл запятую
 
 	cout << "Hello world!" << endl ;
 
-	cout << "Привет мир!" ;
+	cout << "Привет мир!" ;// все остальное хорошо
 }
