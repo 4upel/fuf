@@ -31,5 +31,6 @@ int main() {
 
 	default:
 		cout << "Неверная операция";
+		break;
 	}
 }
